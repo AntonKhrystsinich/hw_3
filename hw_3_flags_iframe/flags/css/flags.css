@@ -1,0 +1,559 @@
+body{
+    background-color: linen;
+    margin: 0;
+    padding: 0;
+}
+.flags-common {
+    border: 1px solid black;
+    float: left;
+}
+.clear-row{
+    clear:both;
+}
+h2{
+    display:none;
+    margin-top: 25px;
+}
+div[class^="flag-"]:hover h2{
+    display:inline;
+}
+div[class^="flag-row-"]{
+    padding:20px;
+    height:270px;
+}
+
+/*-----switz------*/
+.flag-row-switz{
+ width: 240px;
+}
+.flag-switz{
+    width: 240px;
+    height: 240px;
+    background-color: red;
+   }
+.row-switz1{
+    height:48px;
+}
+.row-switz2{
+    height:48px;
+    width:48px;
+    background-color:white;
+    margin:0 auto;
+}
+.row-switz3{
+    height:48px;
+    width:144px;
+    background-color:white;
+    margin:0 auto;
+}
+/*---------denmark------------*/
+.flag-row-dnm{
+    width: 420px;
+}
+.flag-denmark{
+    width: 420px;
+    height: 240px;
+    background-color: white;
+    }
+.row-dnm{
+    height:100px;
+}
+.common-attr-dnm{
+    background-color: red;
+    height:100%;
+}
+.first-dnm{
+    width:140px;
+    float:left;
+}
+.last-dnm{
+    width:240px;
+    float:right;
+}
+.white-row-dnm{
+    height:40px;
+}
+/*--------france----------*/
+.flag-row-france{
+   width: 420px;
+}
+.flag-france{
+    background-color: white;
+    width: 420px;
+    height: 240px;
+}
+.first-column1-fra{
+    width:140px;
+    background-color: blue;
+    height:100%;
+    float:left;
+}
+.last-column1-fra{
+    width:140px;
+    background-color: red;
+    height:100%;
+    float:right;
+}
+/*---------czech-------------*/
+.flag-row-czech{
+    width: 420px;
+}
+.flag-czech{
+    background-color: blue;
+    width: 420px;
+    height: 240px;
+}
+.czech-row1{
+    height:0px;
+    border-left:120px solid transparent;
+    border-top:120px solid white;
+}
+.czech-row2{
+    height:0px;
+    border-left:120px solid transparent;
+    border-bottom:120px solid red;
+}
+/*  ----------UK----------------------*/
+.flag-row-uk {
+    width: 420px;
+}
+.flag-uk{
+    background-color:red;
+    width: 420px;
+    height: 240px;
+}
+.uk-row1{
+    height:100px;
+}
+.uk-row2{
+    height:100px;
+    position:relative;
+    top:0px;
+}
+.uk-section1{
+    width:190px;
+    background-color:white;
+    float:left;
+}
+.uk-section2{
+    width:190px;
+    background-color:white;
+    float:right;
+}
+.uk-horizontal{
+    height:40px;
+}
+.uk-section-narrowed1{
+    height:90px;
+    width:180px;
+    float:left;
+}
+.uk-section-narrowed2{
+    height:90px;
+    width:180px;
+    float:right;
+}
+.uk-blue-up1{
+    height:0;
+    width:0;
+    border-top: 80px solid blue;
+    border-left: 160px solid transparent;
+    float:right;
+}
+.uk-red-up1{
+    height:0;
+    width:0;
+    border-bottom: 90px solid red;
+    border-right: 175px solid transparent;
+    float:left;
+    position:relative;
+    top:-80px;
+}
+.uk-white-down1{
+    height:0;
+    width:0;
+    border-bottom: 70px solid white;
+    border-right: 135px solid transparent;
+    float:left;
+    position:relative;
+    top:-150px;
+}
+.uk-white-down3{
+    height:0;
+    width:0;
+    border-top: 70px solid white;
+    border-right: 135px solid transparent;
+    float:left;
+    position:relative;
+    top:-170px;
+}
+.uk-blue-down1{
+    height:0;
+    width:0;
+    border-bottom: 60px solid blue;
+    border-right: 115px solid transparent;
+    float:left;
+    position:relative;
+    top:-210px;
+}
+.uk-blue-down3{
+    height:0;
+    width:0;
+    border-bottom: 80px solid blue;
+    border-left: 160px solid transparent;
+    float:right;
+    position:relative;
+    top:10px;
+}
+.uk-blue-up2{
+    height:0;
+    width:0;
+    border-top: 80px solid blue;
+    border-right: 160px solid transparent;
+    float:left;
+}
+.uk-blue-up4{
+    height:0;
+    width:0;
+    border-bottom: 80px solid blue;
+    border-right: 160px solid transparent;
+    float:left;
+    position:relative;
+    top:10px;
+}
+.uk-blue-up3{
+    height:0;
+    width:0;
+    border-top: 60px solid blue;
+    border-right: 115px solid transparent;
+    float:left;
+    position:relative;
+    top:-240px;
+}
+.uk-red-up2{
+    height:0;
+    width:0;
+    border-bottom: 90px solid red;
+    border-left: 175px solid transparent;
+    float:right;
+    position:relative;
+    top:-80px;
+}
+.uk-red-up4{
+    height:0;
+    width:0;
+    border-top: 90px solid red;
+    border-left: 175px solid transparent;
+    float:right;
+    position:relative;
+    top:-80px;
+}
+.uk-red-up3{
+    height:0;
+    width:0;
+    border-top: 90px solid red;
+    border-right: 175px solid transparent;
+    float:left;
+    position:relative;
+    top:-80px;
+}
+.uk-white-down2{
+    height:0;
+    width:0;
+    border-bottom: 70px solid white;
+    border-left: 135px solid transparent;
+    float:right;
+    position:relative;
+    top:-150px;
+}
+.uk-white-down4{
+    height:0;
+    width:0;
+    border-top: 70px solid white;
+    border-left: 135px solid transparent;
+    float:right;
+    position:relative;
+    top:-170px;
+}
+.uk-blue-down2{
+    height:0;
+    width:0;
+    border-bottom: 60px solid blue;
+    border-left: 115px solid transparent;
+    float:right;
+    position:relative;
+    top:-210px;
+}
+.uk-blue-down4{
+    height:0;
+    width:0;
+    border-top: 60px solid blue;
+    border-left: 115px solid transparent;
+    float:right;
+    position:relative;
+    top:-240px;
+}
+.uk-position-down-left{
+    position:relative;
+    top:10px;
+    float:left;
+}
+.uk-position-down-right {
+    position: relative;
+    top: 10px;
+    float: right;
+}
+/*-----------Turkey---------------*/
+.flag-row-turk{
+   width: 420px;
+}
+.flag-turk{
+    width: 420px;
+    height: 240px;
+    background-color: red;
+    text-align: center;
+}
+.turk-row{
+    height:240px;
+}
+.turk-white-circle{
+    width:120px;
+    height:120px;
+    background-color: white;
+    border-radius:50%;
+    position:relative;
+    top:60px;
+    left:80px;
+}
+.turk-red-circle{
+    width:100px;
+    height:100px;
+    background-color: red;
+    border-radius:50%;
+    position:relative;
+    top:-50px;
+    left:105px;
+}
+.turk-position-star{
+    position:relative;
+    top:-160px;
+    left:200px;
+}
+#turk-star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border-right:  20px solid transparent;
+    border-bottom: 14px  solid white;
+    border-left:   20px solid transparent;
+    -webkit-transform: rotate(35deg);
+}
+#turk-star-five:before {
+    border-bottom: 16px solid white;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -11px;
+    left: -15px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+}
+#turk-star-five:after {
+    position: absolute;
+    display: block;
+    color: white;
+    top: 0px;
+    left: -21px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-bottom: 14px solid white;
+    border-left: 20px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    content: '';
+}
+/*-----------eu------------*/
+.flag-row-eu{
+   width: 420px;
+}
+.flag-eu{
+    width: 420px;
+    height: 240px;
+    background-color: blue;
+    text-align: center;
+    }
+.eu-star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: yellow;
+    width: 0px;
+    height: 0px;
+    border-right:  20px solid transparent;
+    border-bottom: 14px  solid yellow;
+    border-left:   20px solid transparent;
+    -webkit-transform: rotate(35deg);
+}
+.eu-star-five:before {
+    border-bottom: 16px solid yellow;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -11px;
+    left: -15px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+}
+.eu-star-five:after {
+    position: absolute;
+    display: block;
+    color: yellow;
+    top: 0px;
+    left: -21px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-bottom: 14px solid yellow;
+    border-left: 20px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    content: '';
+}
+.eu-star1{
+    position: relative;
+    top: -30px;
+    left: 190px;
+}
+.eu-star2{
+    position: relative;
+    top: 100px;
+    left: 190px;
+}
+.eu-star3{
+    position: relative;
+    top: -60px;
+    left: 95px;
+}
+.eu-star4{
+    position: relative;
+    top: -125px;
+    left: 285px;
+}
+.eu-star5{
+    position: relative;
+    top: -140px;
+    left: 270px;
+}
+.eu-star6{
+    position: relative;
+    top: -170px;
+    left: 240px;
+}
+.eu-star7{
+    position: relative;
+    top: -265px;
+    left: 110px;
+}
+.eu-star8{
+    position: relative;
+    top: -295px;
+    left: 140px;
+}
+.eu-star9{
+    position: relative;
+    top: -490px;
+    left: 110px;
+}
+.eu-star10{
+    position: relative;
+    top: -590px;
+    left: 140px;
+}
+.eu-star11{
+    position: relative;
+    top: -620px;
+    left: 270px;
+}
+.eu-star12 {
+    position: relative;
+    top: -720px;
+    left: 240px;
+}
+
+/*-----------jpn------------*/
+
+.flag-row-jpn{
+    width: 420px;
+}
+
+.flag-jpn {
+    width: 420px;
+    height: 240px;
+    background-color: white;
+}
+
+.row-jpn1 {
+    width: 145px;
+    height: 140px;
+    background: #bc002d;
+    margin: 50px auto;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+}
+
+
+/*--------france----------*/
+.flag-row-france{
+    width: 420px;
+}
+.flag-france{
+    background-color: white;
+    width: 420px;
+    height: 240px;
+}
+.first-column1-fra{
+    width:140px;
+    background-color: blue;
+    height:100%;
+    float:left;
+}
+.last-column1-fra{
+    width:140px;
+    background-color: red;
+    height:100%;
+    float:right;
+}
+
+.flag-row-netherlands {
+    width: 420px;
+}
+
+.netherlands-flag {
+    width: 420px;
+    height: 240px;
+}
+
+.netherlands-flag > div {
+    height: 80px;
+}
+
+.netherlands-flag-1 {
+    background: red;
+}
+
+.netherlands-flag-2 {
+    background: white;
+}
+
+.netherlands-flag-3 {
+    background: blue;
+}
